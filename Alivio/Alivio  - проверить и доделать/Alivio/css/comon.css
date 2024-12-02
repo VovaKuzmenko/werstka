@@ -1,0 +1,313 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Semibold.woff2') format('woff2'), 
+      url('../fonts/all_fonts/transfonter/Lato-Semibold.woff2') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Regular.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Medium.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Lato-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/all_fonts/transfonter/Georgia.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Georgia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/all_fonts/transfonter/Georgia-Bold.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Georgia-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir LT Pro 65';
+  src: url('../fonts/all_fonts/transfonter/AvenirLTPro-Black.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/AvenirLTPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/*-----Общие блоки-------*/
+/*-------------STORY-----------------*/
+.main__story {
+}
+.story {  
+/* margin: 0px 0px 0px -30px; */
+background-color: #245852;
+  
+}
+.story__container {
+  
+}
+.story__body{  
+  display: flex;  
+  align-items: flex-start;  
+  justify-content: space-between;
+  padding: 230px 0px 177px 0px;
+}
+
+.story__basic-block {
+  flex: 1 1 auto;
+  padding: 106px 31px 260px 0px;
+  max-width: 100%;
+}
+
+
+
+.basic-block__title {  
+  padding: 0px 0px 33px 0px;
+}
+
+.basic-block__text {
+  padding: 0px 0px 57px 0px;
+
+}
+.basic-block__sub-title {
+}
+
+.title--white, .sub-title--white{
+  color:white;
+}
+
+.story__buttons {
+
+}
+.story__button {
+  min-height: 65px; 
+  max-width: 240px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.button {
+}
+.story__video {
+  flex: 0 0 60%;
+	position: relative;
+	padding: 0px 0px 35% 0px;
+  
+}
+
+.story__video iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+  border-radius: 2%;
+}
+
+@media (max-width: 1200px) {    
+	.story__body{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 20px;
+  } 
+  .story__basic-block{
+    padding: 30px;
+  }
+  .story__video {    
+    padding: 0px 10px 70% 10px;
+    
+  }
+}
+
+@media (max-width: 479px) {
+  .basic-block__title {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .basic-block__text {
+    padding: 0px 0px 20px 0px;
+  }
+}
+
+/*---------------- PRODUCT------------*/
+
+.product__body {
+  display: flex;  
+  padding: 120px 0 243px 0px;
+
+}
+.product_body--left {
+  flex: 0 1 50%;  
+  position: relative;
+  padding-right: 87px;
+}
+.product__image{
+  padding: 0px 0px 111% 0px;
+  margin-left: 60px;  
+}
+.product__image img{
+  border-radius: 18px;
+}
+
+.product__description {
+  flex: 0 0 auto;
+}
+.description__it-work {
+  font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+}
+
+.story__button {
+  min-height: 65px; 
+  max-width: 240px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.button {
+}
+.product__client {
+}
+.client {  
+  width: 296.14px;
+  /* max-height: 293.9px; */
+position: absolute;
+z-index: 3;
+background-color: #ffffff;
+bottom:-74px;
+padding: 22px  0 30px 0px;
+border-radius: 4px;
+}
+.client__costuomized {  
+  margin: 0 auto;
+  max-width: 130px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14.49px;
+line-height: 157%;
+text-align: center;
+color: #000000;
+border-bottom: 1px solid #000000;
+}
+
+.client__foto {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.client__name {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11.9351px;
+line-height: 157%;
+text-align: center;
+color: #000000;
+margin-bottom: 20px;
+}
+.client__content {
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 157%;
+color: #000000;
+padding: 0 0 0 60px;
+margin-bottom: 16px;
+}
+.client__solve li:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.client__solve {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10.6195px;
+line-height: 157%;
+
+/* identical to box height, or 17px */
+text-align: start;
+color: #000000;
+padding: 0 0 0 60px;
+}
+
+.client__solve li{
+  list-style: disc;
+  list-style-position: inside
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .client {  
+    width: 50%;
+    height: 50%; 
+  bottom:0;
+  padding: 22px  0 30px 0px;
+  border-radius: 4px;
+  object-fit: cover;  
+  }
+  .product__image{    
+    margin-left: 0px;  
+  }
+  .client__content {    
+  padding: 0 0 0 30px; 
+  }
+  .client__solve li:not(:last-child){
+    margin-bottom: 16px;
+  }
+}
+
+/*----------FOOTER(footer__column)------------*/
+
+.footer {
+  background-color: #245852;
+  color: #ffffff;
+}
+.footer__main {
+  padding: 95px 15px 144px 15px;
+}
+.footer__row {
+  display: flex;
+flex-wrap: wrap;
+margin: 0px -15px;
+
+}
+.footer__column {
+  padding: 15px 15px;
+  flex: 0 1 15%;
+}
+.footer__label {  
+  margin-bottom: 60px;  
+} 
+.menu-footer__item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.menu-footer__item {
+  display: inline-block;
+  min-height: 30px;
+}
+
+.menu-footer__item:hover {
+	text-decoration: underline;
+}

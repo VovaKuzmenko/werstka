@@ -1,0 +1,549 @@
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/*-----------------------------------------------------------------*/
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+/* ------------------ */
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0px auto;
+	padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+/*---Адаптив---------*/
+
+/* PC */
+@media (max-width: 1087px) {
+	[class*="__container"] {
+		max-width: 970px;
+	}
+}
+/* TABLET */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: 750px;
+	}
+}
+/* MOBILE */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+}
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}
+
+/*-----------------------------------*/
+
+.page{
+	flex: 1 1 auto;
+}
+/*----------header menu-------------------*/
+
+.header {
+  position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.header__container {
+  display: flex;
+	min-height: 118px;
+	align-items: center;
+}
+
+.header__logo {
+  color: #313131;
+font-family: "CircularStd";
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.5px;
+}
+.header__logo:hover {
+text-decoration: underline;
+}
+.header__menu {
+  flex: 1 1 auto;
+}
+.menu {
+  display: flex;
+	justify-content: flex-end;
+}
+.menu__list {
+  display: flex;
+  margin: 0px 203px 0px 0px;
+  
+}
+.menu__item {
+  margin: 0px 50px 0px 0px;
+  
+}
+.menu__link {
+  color: #313131;
+font-size: 17px;
+font-weight: 450;
+line-height: normal;
+/* letter-spacing: 1px; */
+}
+
+.menu__link:hover, 
+.actions-header__auth:hover,
+.button__black:hover {
+  opacity: 0.5;
+  /*подумать над транзишон */
+}
+.header__actions {
+}
+.actions-header {
+  display: flex;
+  align-items: center;
+}
+.actions-header__auth {    
+margin: 0px 30px 0px 0px;
+}
+.actions-header > span {
+  display: inline-block;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.actions-header__button { 
+box-shadow: 0px 87px 29px 15px rgba(49, 49, 49, 0.10);
+}
+
+.button {	
+	border-radius: 6px;
+	display: flex;
+	min-height: 58px;
+	justify-content: center;
+	align-items: center;
+  /* cursor: pointer; */
+	text-align: center;	
+  color: #fff;  
+  font-size: 17px;
+	letter-spacing: 0.2px;	
+	font-weight: 450;
+  padding: 18px 50px;  
+  padding: 0px 53px;  
+  border: 1px solid #313131;   
+  transition: all 0.3s ease 0s;
+  /*на кнопке еще есть тень*/
+}
+.health__button--border {
+   border-radius: 0px 5px 5px 0px;
+  }
+/* модификаторы кнопки */
+.button--black {
+ background: #313131;
+}
+
+.button--text-white {
+  color:#fff;  
+}
+
+.button--text-black {
+  color: #313131; 
+}
+
+/*---------health---------------------*/
+
+.page {
+}
+.page__health {
+
+}
+.health {
+}
+.health__container {
+}
+.__container {
+}
+.health__body {
+ display: flex; 
+}
+.health__decor {
+
+}
+.health__block {
+  flex: 0 1 50%;
+  padding: 238px 0px 0px 0px;
+}
+.health__title {
+  color: #313131;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.health__title:nth-child(3) {
+  /* position: relative; */
+margin: -145px 0px 18px 67px;
+}
+.health__more{
+  position: relative; 
+  width: 90px;
+  height: 101px;
+  top:-56px;
+  left: 6px;
+}
+
+.health-text--weight {
+font-weight: 700;
+}
+.health__text {
+  color: #313131;
+}
+.health__text:nth-child(4)  {
+  margin: 0px 0px 31px 0px;
+}
+
+.health__text:nth-child(5) {
+margin: 0px 0px 66px 0px;
+}
+
+.health__form {
+  display: flex;
+  flex: 0 1 100%;
+  align-items: center;
+}
+.health__input {
+  width: 100%; /*517px*/
+  flex: 1 1 auto;
+  min-height: 58px;
+  background: #f9f9f9;
+  color: #313131;
+  padding: 0px 17px;
+  border: 1px solid #313131;
+    
+  /* box-sizing: border-box; */
+  border-radius: 5px 0 0 5px;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* .health__button {
+  background: #313131;
+  border: 1px solid #313131;
+  border-radius: 0px 5px 5px 0px;
+  display: flex;
+  min-height: 58px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  padding: 0px 53px;
+} */
+.health__picture {
+  
+}
+.picture {
+  flex: 0 1 auto;
+}
+.picture__decor-1, .piture__decor-2 {
+  position: absolute;
+}
+
+.picture__decor-1 {
+  left: 250px;
+  z-index: 0;
+}
+.piture__decor-2 {
+  left: 875px;
+}
+
+.picture__image-1 { 
+/* z-index: 100; */
+}
+.picture__image-2 { 
+  position: relative;
+  top: -500px;
+z-index: -1;
+}
+
+/*--------parners -----*/
+
+.page__partners {
+}
+.partners {
+}
+.partners__container {
+}
+.__container {
+}
+.partners__body {
+}
+.partners__left-column {
+}
+.partners-title {
+}
+.partners__text {
+}
+.partners__decor {
+}
+.partners__right-column {
+}
+.partners__item {
+}
+
+/*------about ------*/
+
+.page__about {
+}
+.about {
+}
+.about__container {
+}
+
+.about__body {
+}
+.about__column-left {
+}
+.about__title {
+}
+.about__text {
+}
+.about__image-about-left {
+}
+.about__decor {
+}
+.about__column-right {
+}
+.image__about-right {
+}
+
+/*--------how it works-----*/
+.page__how-it-works {
+}
+.how-it-works {
+}
+.how-it-works__container {
+}
+
+.how-it-works__body {
+}
+.how-it-work__right-column {
+}
+.how-it-work__title {
+}
+.how-it-work__text {
+}
+.how-it-work__action {
+}
+.action {
+}
+.action__button {
+}
+.button {
+}
+.how-it-work__left-column {
+}
+.how-it-work__tabs {
+}
+.tabs__items {
+  display: flex;
+}
+.tabs__item {
+  display: flex;
+  flex: 0 1 33.33%;
+  height: 50px;
+}
+.tabs__body {
+}
+.tabs__block:target {
+  display: block;
+}
+/* необязательный блок, доделываю в самом конце по мере необходимости 
+.tabs__block:before {
+  content: "";
+  width: 33.33%;
+  position: absolute;
+  top: -50px;
+}
+*/
+
+/*------------updateed------*/
+.page__updated {
+}
+.updated {
+}
+.updated__container {
+}
+.__container {
+}
+.updated__body {
+}
+.updated__decor {
+}
+.decor {
+}
+.updated__title {
+}
+.updated__left-column {
+}
+.updated__card {
+}
+.card-updated {
+}
+.card-updated__image {
+}
+.card-updated__text {
+}
+.card-updated__description {
+}
+.updated__right-column {
+}
+
+/*-------faq------*/
+.page__faq {
+}
+.faq {
+}
+.faq__container {
+}
+.__container {
+}
+.faq__body {
+}
+.faq__title {
+}
+.faq__text {
+}
+.faq__main-block {
+}
+.faq__card {
+}
+.card-faq {
+}
+.card-faq__title {
+}
+.card-faq__text {
+}
+
+/*--------- customes-say------*/
+.castomes-say__container {
+}
+.__container {
+}
+.castomes-say__body {
+}
+.castomes-say__title {
+}
+.castomes-say__text {
+}
+.castomes-say__slider {
+}
+.slider {
+}
+.slider__card-slider {
+}
+.card-slider__left-column {
+}
+.card-slider__title {
+}
+.card-slider__text {
+}
+.card-slider__reiting {
+}
+.reiting {
+}
+.reiting__item {
+}
+.card-slider__name-customer {
+}
+.card-slider__customer-work {
+}
+.card-slider__right-column {
+}
+.card-slider__image {
+}
+/*-------subscribe-------*/
+
+.page__subscribe {
+}
+.subscribe {
+}
+.subscribe__container {
+}
+.__container {
+}
+.subsscribe__body {
+}
+.subscribe__title {
+}
+.subscribe__form {
+}
+.subscribe__input {
+}
+.subscribe__button {
+}
+
+/*------footer----------*/
+.footer {
+}
+.footer__container {
+}
+.__container {
+}
+.footer__top {
+}
+.footer__column {
+}
+.footer__label {
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+}
+.footer__bottom {
+}

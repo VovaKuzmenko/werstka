@@ -1,0 +1,5 @@
+https://www.figma.com/file/btCTfFeazHupC9222Sjile/DegitalAgencyLandingPage?mode=dev
+
+Доделать нижний блок - расположение картинки, расстановка, адаптив.
+Все проверить по макету.
+сравнить с  Гуру.

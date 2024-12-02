@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Semibold.woff2') format('woff2'), 
+      url('../fonts/all_fonts/transfonter/Lato-Semibold.woff2') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Regular.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/all_fonts/transfonter/Lato-Medium.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Lato-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/all_fonts/transfonter/Georgia.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Georgia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/all_fonts/transfonter/Georgia-Bold.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/Georgia-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir LT Pro 65';
+  src: url('../fonts/all_fonts/transfonter/AvenirLTPro-Black.woff2') format('woff2'),
+      url('../fonts/all_fonts/transfonter/AvenirLTPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/*-----Общие блоки-------*/
+body{
+  height: 100%;
+	line-height: 1.5;
+	background: #fafafa;
+	font-size: 20px;
+	color: #424242;
+	font-family: 'Lato';
+	font-weight: 500;
+}
+
+
+/*---------HEADER BLOCK----------*/
+
+.header-block {
+  max-width: 440px;
+  padding: 10px 15px;  
+}
+.header-block__title {
+font-family: 'Georgia';
+font-weight: 700;
+font-size: 65px;
+line-height: 74px;
+color: #01996D;
+}
+.header-block__sub-title {
+  font: inherit;
+  font-weight: 400;
+}
+
+
+/*-------ITEM-CARD----------*/
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ max-width: 390px;
+}
+.item-card__number {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  
+  /* identical to box height, or 225px */
+  text-align: start;
+  color: rgba(1, 153, 109, 0.2);
+}
+.item-card__name {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+
+/* identical to box height, or 45px */
+text-align: center;
+color: #000000;
+margin: -90px 0 0 0;
+}
+.item-card__text {
+}
+.item-card__image {
+}
+.__ibg {
+}

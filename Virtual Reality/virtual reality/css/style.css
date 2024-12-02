@@ -1,0 +1,106 @@
+
+
+/*------------Fonts-------------*/
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Roboto&family=Rubik:wght@400;500&display=swap');
+
+/*-------------Даем всемблокам (по умолчанию)-------------*/
+  .sans-reg {
+    font-family: "DM Sans";
+    font-weight: normal;
+  }
+  /*-------------Названия карточек, footer-------------*/
+  .sans-medium {
+    
+    font-family: "DM Sans";
+    font-weight: 500;
+  }
+  /*------------Заголовки(headers)--------------*/
+  .sans-bold {
+    
+    font-family: "DM Sans";
+    font-weight: 700;
+  }
+  /*-----------Logo + button---------------*/
+  .rubic-medium {
+    
+    font-family: "Rubik";
+    font-weight: 500;
+  }
+  /*-----------Email + footer-company---------------*/
+  .rubic-regular {
+    
+    font-family: "Rubik";
+    font-weight: normal;
+  }
+ /*------------forms-factor--------------*/
+  .roboto{
+    
+    font-family: "Roboto";
+    font-weight: normal;
+  }
+
+/*--------------------------*/
+
+][class*="__container"] {
+  max-width: 1164px;/* величина ограничивающего контейнера*/
+  margin: 0px auto;/* выравнивание блока с огранич. шириной по центру*/
+  padding: 0px 15px;/* ликвидируем прилипание к краям */
+box-sizing: content-box  /* паддинг не учитывается в размере  или увеличиваем width на padding */";
+}
+
+.wrapper { /* для избежания горизонтального скрола при отрицат. отступах */
+  min-height: 100%; /* утанавливаем по умолчанию + overflow */
+  overflow: hidden; /* для сокрытия при скроле сайта всего лишнего, не делается для боди во избежание невозможности проскролить сайт */
+  display: flex;
+  flex-direction: column; /* но можно футер прибить и марджином */	    
+}
+
+/*-------------buttons-block-------------*/
+
+
+/*-------------card-our-service-------------*/
+
+
+/*-------------card-team-------------*/
+
+
+
+/*-------------title-block-------------*/
+
+
+/*-------------menu-header-------------*/
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+  color: #F9FAFB;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+}
+.header__actions {
+}
+.actions-header {
+}
+.actions-header__auth {
+}
+.actions-header__button {
+}
+.button {
+}

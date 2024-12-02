@@ -1,0 +1,300 @@
+
+
+.header_container {
+  width: 1440px;
+  height: 811px;
+  background: url(../img/header/Bitmap.svg);
+}
+
+
+
+
+
+
+/****************************************/
+
+
+
+.text-on-picture {
+  width: 475px;
+  margin: 0 0 50px 100px;
+}
+
+.text-on-picture_big-text {
+/* Strategy. Design Con */
+/* 
+position: absolute;
+height: 138px;
+left: 0%;
+right: 0%;
+top: calc(50% - 138px/2 - 64px); */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+/* or 128% */
+
+color: #4D533C;
+
+
+}
+
+.text-on-picture_small-text {
+/* There’s no secret sa */
+/* 
+position: absolute;
+left: 0%;
+right: 0%;
+top: 60.93%;
+bottom: 17.76%; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: rgba(33, 56, 66, 0.6);
+
+
+}
+
+.text-on-picture p {
+margin: 0 10px 100px 0;
+}
+
+
+.text-on-picture_big-text a {
+  /*  See Case Study */
+/* 
+position: absolute;
+height: 24px;
+left: 0%;
+right: 70.32%;
+top: calc(50% - 24px/2 + 187.5px); */
+
+font-family: 'FontAwesome';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+
+color: #D4D6D4;
+
+
+}
+/********************************/
+
+.image-block {
+  width: 775px;
+  height: 615px;
+  background-color: rgb(113, 51, 119);
+}
+
+.pop-up-block {
+  width: 453px;
+  margin: 0 10px 100px 0;
+}
+
+.pop-up {
+}
+
+.pop-up_quote {
+  /* “Exhibit Systems is */
+/* 
+position: absolute;
+width: 390px;
+height: 78px;
+left: 353px;
+top: 3777px; */
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #4D533C;
+
+
+}
+
+.pop-up_group {
+
+}
+
+.pop-up_face {
+  width: 46px;
+  height: 46px;
+}
+
+/**********************************/
+
+.name-block {
+  /* Eunice Oliver */
+
+/* position: absolute;
+height: 24px;
+left: 0%;
+right: 28.19%;
+top: calc(50% - 24px/2 - 12px); */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #4D533C;
+
+
+}
+
+.profession {
+  /* Founder & CEO, Zeem */
+/* 
+position: absolute;
+height: 21px;
+left: 0%;
+right: -0.67%;
+top: calc(50% - 21px/2 + 14.5px); */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+color: #152934;
+
+
+}
+
+/****************************************/
+
+.list-block {
+  width: 255px;
+  height: 309px;
+  margin: 0 10px 100px 0;
+}
+
+.list {
+
+
+
+}
+
+.list_header {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+text-transform: uppercase;
+
+color: #4D533C;
+}
+
+.list_text {
+  /* A workshop aimed at */
+/* 
+position: absolute;
+left: 11.76%;
+right: 12.16%;
+top: 37.22%;
+bottom: 29.13%; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+color: rgba(33, 56, 66, 0.6);
+
+
+}
+
+.list-block a {
+  /*  Read More */
+
+position: absolute;
+height: 24px;
+left: 11.76%;
+right: 48.24%;
+top: calc(50% - 24px/2 + 106.5px);
+
+font-family: 'FontAwesome';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+
+color: #D4D6D4;
+
+
+}
+
+/*****************************************/
+.group-strategy-design {
+  width: 167px;
+  background-color: #4D533C;
+}
+.group-strategy-design_header {
+  /* Services */
+/* 
+position: absolute;
+width: 167px;
+height: 38px;
+left: 166px;
+top: 5551px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 38px;
+/* identical to box height, or 238% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.group-strategy-design_main {
+
+}
+.design_main {
+}
+.design_main_text {
+  /* Strategy Design Prod */
+/* 
+position: absolute;
+width: 159px;
+height: 200px;
+left: 166px;
+top: 5610px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+color: #B6C197;
+
+
+}

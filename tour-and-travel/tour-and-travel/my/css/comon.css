@@ -1,0 +1,291 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #fafafa;
+	font-size: 15px;
+	color: #7D7987;
+	font-family: 'Inter';
+	font-weight: 400;
+}
+/*---------------BUTTON----------------------------*/
+
+
+.button {	
+	border-radius: 8px;
+	display: flex;
+	max-height: 48px;
+  max-width: 164px;
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+  font-family: 'Inter';
+	font-weight: 600;
+  color: #ffff; 
+	line-height: 375%;	
+  padding: 5px 30px;
+	margin: 10px 0;
+  background-color: #FB8F1D ;
+}
+
+
+
+/*---------------NATUR-PICTURE AND TEXT--------------*/
+
+.item {  
+  height: 446px;
+  max-width: 260px;
+  margin: 20px;
+  margin-bottom: 200px;
+}
+.item__content {
+
+}
+
+.item__recreation {
+  margin: 0px 0px 13px;
+}
+.item__image {
+  display: block;
+width: 260px;
+height: 230px;
+background-color: green;
+border-start-start-radius: 8px;
+border-start-end-radius:8px;
+margin-bottom: 8px;
+}
+._ibg {
+
+}
+.item__link {
+
+}
+
+.item__title {    
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 158%;
+  color: #000000;
+}
+.item__text {
+margin: 0px 0px 23px 0px;
+
+}
+.item__more-text {    
+  font-weight: 600;  
+  line-height: 187%;  
+  color: #FB8F1D;
+  
+  
+}
+/*------NATURA-PICTURE and PLACE------------*/
+.colom {
+  height: 337px;
+  max-width: 260px;
+  margin: 20px;
+  /* margin-bottom: 200px; */
+  position: relative;
+}
+.colom__place-card {
+  position: absolute;
+  top:281px;
+  background-color: rgb(186, 186, 218);
+  padding: 11px 22px 0px 0px;
+  border-radius: 0px 6px 0px 0px;
+  height: 56px;
+}
+.place-card {
+}
+.place-card__name {
+  font-weight: 600;
+font-size: 17px;
+line-height: 147%;
+align-items: center;
+color: #042521;
+
+}
+.colom__picture {
+  border-radius: 8px;
+  display: block;
+  height: 337px;
+  max-width: 260px;
+  background-color: #fac;
+}
+._ibg {
+}
+
+/*---------TREND STORIS ITEM--------*/
+
+.information-block {
+  display: flex;
+  align-items: flex-start;
+}
+.information-block__description {
+  flex: 1 1 auto;
+}
+.information-block__title {
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 139%;
+color: #000000;
+margin-bottom: 20px;
+}
+.information-block__sub-title {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 176%;
+color: #7D7987;
+margin-bottom: 40px;
+}
+.information-block__button {
+}
+.button {
+
+}
+.information-block__image {
+  flex: 0 0 55%;
+  height: 600px;
+  max-width: 542px;
+  background-color: paleturquoise;
+}
+
+/*------ FOOTER COLUMN ------*/
+
+
+.footer__column {
+
+}
+.footer__label {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 316%;
+color: #000000;
+margin: 0px 0px 20px 0px;
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+}
+.menu-footer__item:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+.menu-footer__link {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 211%;
+color: #848484;
+}
+
+/*----CIRCLE------*/
+
+.circle-logo{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  /* Явно задаём белый цвет */
+  background-color:  #FB8F1D;
+  border: 3px solid #fff;
+  margin: 120px;
+  /* z-index: 1; */
+}
+
+.circle-logo:before {
+  content: "";
+  background: #1ABE84;
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.circle-gradient{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  /* Явно задаём белый цвет */
+  background-color: white;
+  margin: 20px;
+}
+
+
+.circle-gradient:after {
+  content: "";
+  background: linear-gradient(rgba(191, 240, 221, 1), rgba(87, 210, 163, 1));
+  position: absolute;
+  left: -5px;
+  right: -5px;
+  top: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.cross {
+  position: absolute;
+  top:2000px;
+  left:500px;
+  
+}
+
+.cross:after {
+  content: ""; 
+  position: absolute; 
+  width: 20px; 
+  height: 4.6px;
+  background-color: rgba(253, 208, 141, 1);
+  transform: rotate(80deg);
+}
+
+.cross:before {
+  content: ""; 
+  position: absolute; 
+  width: 20px; 
+  height: 4.6px;
+  background-color: rgba(253, 208, 141, 1);
+  transform: rotate(-10deg);
+}
+
